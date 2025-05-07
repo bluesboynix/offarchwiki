@@ -23,7 +23,19 @@
 - make
 - make install
 
-## Example Usage
+## 📖 Usage
+#### offarchwiki [options] [keyword]
+
+| Option         | Description                                                    |
+| -------------- | -------------------------------------------------------------- |
+| `-b <browser>` | Use a specific browser (e.g., `firefox`, `w3m`, `lynx`)        |
+| `-c`           | Use the first available terminal browser (`w3m`, `lynx`, etc.) |
+| `-l <pattern>` | List matching wiki pages                                       |
+| `-h`           | Show help                                                      |
+| `-v`           | Show version info                                              |
+
+## Example
+
 #### Open pacman page with default browser:
 $ offarchwiki pacman
 
