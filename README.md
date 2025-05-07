@@ -18,9 +18,27 @@
 
 ### Install Steps
 
-```bash
 git clone https://github.com/bluesboynix/offarchwiki.git
 cd offarchwiki
 make
 sudo make install
 
+### Example Usage
+Open pacman page with default browser:
+$ offarchwiki pacman
+
+Open with terminal browser:
+$ offarchwiki -c systemd
+
+Use Firefox:
+$ offarchwiki -b firefox makepkg
+
+List pages containing the word "boot":
+$ offarchwiki -l boot
+
+Show the main page:
+$ offarchwiki
+
+🔧 Uninstall
+
+$ sudo make uninstall
