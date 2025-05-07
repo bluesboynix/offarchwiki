@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define VERSION "1.0.0"
+#define VERSION "0.0.5"
 #define AUTHOR "bluesboynix"
-#define GITHUB_REPO "https://github.com/bluesboynix/archwiki-cli.git"
+#define GITHUB_REPO "https://github.com/bluesboynix/offarchwiki.git"
 #define WIKI_PATH "/usr/share/doc/arch-wiki/html/en"
 #define MAIN_PAGE WIKI_PATH "/Main_page.html"
 #define TERMINAL_BROWSER "w3m"
